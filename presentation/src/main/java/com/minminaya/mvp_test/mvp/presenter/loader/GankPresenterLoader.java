@@ -14,7 +14,6 @@ public class GankPresenterLoader<T extends BasePresenter> extends Loader<T>{
 
     private GankPresenterFactory factory;
     private T presenter;
-//    private BasePresenterDefault presenter;
 
     public GankPresenterLoader(Context context, GankPresenterFactory factory) {
         super(context);

@@ -13,6 +13,6 @@ public interface IPresenter<T> {
     void onDestroyed();
 
     boolean isAttachView(T view);
-
+    //当传入Activity的context时，在presenter中用此方法获取到Activity的上下文，以控制Activity中的方法
     T getMvpView();
 }
