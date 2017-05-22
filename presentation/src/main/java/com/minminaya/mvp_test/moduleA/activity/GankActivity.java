@@ -5,7 +5,6 @@ import android.content.Loader;
 import android.os.Bundle;
 import android.util.Log;
 
-import com.jcodecraeer.xrecyclerview.XRecyclerView;
 import com.minminaya.mvp_test.R;
 import com.minminaya.mvp_test.base.BaseActivity;
 import com.minminaya.mvp_test.moduleA.presenter.GankPresenter;
@@ -13,7 +12,6 @@ import com.minminaya.mvp_test.moduleA.presenter.GankPresenterFactory;
 import com.minminaya.mvp_test.mvp.presenter.loader.GankPresenterLoader;
 import com.minminaya.mvp_test.mvp.view.MvpView;
 
-import butterknife.Bind;
 
 /**
  * Created by Niwa on 2017/5/21.
@@ -25,8 +23,6 @@ public class GankActivity extends BaseActivity implements MvpView, LoaderManager
     private static final int LOADER_ID = 1110;
     private GankPresenter presenter = new GankPresenter();
 
-    @Bind(R.id.recycleview)
-    XRecyclerView mRecycleview;
 
     @Override
     public void unBind() {
