@@ -4,7 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.minminaya.mvp_test.moduleA.activity.GankActivity;
+import com.minminaya.mvp_test.function_a.activity.GankActivity;
 
 public class MainActivity extends AppCompatActivity {
 

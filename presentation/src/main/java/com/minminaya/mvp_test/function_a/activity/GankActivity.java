@@ -1,4 +1,4 @@
-package com.minminaya.mvp_test.moduleA.activity;
+package com.minminaya.mvp_test.function_a.activity;
 
 import android.app.LoaderManager;
 import android.content.Loader;
@@ -7,8 +7,8 @@ import android.util.Log;
 
 import com.minminaya.mvp_test.R;
 import com.minminaya.mvp_test.base.BaseActivity;
-import com.minminaya.mvp_test.moduleA.presenter.GankPresenter;
-import com.minminaya.mvp_test.moduleA.presenter.GankPresenterFactory;
+import com.minminaya.mvp_test.function_a.presenter.GankPresenter;
+import com.minminaya.mvp_test.function_a.presenter.GankPresenterFactory;
 import com.minminaya.mvp_test.mvp.presenter.loader.GankPresenterLoader;
 import com.minminaya.mvp_test.mvp.view.MvpView;
 

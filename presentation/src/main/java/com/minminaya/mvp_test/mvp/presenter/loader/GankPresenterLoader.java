@@ -4,7 +4,7 @@ import android.content.Context;
 import android.content.Loader;
 
 import com.minminaya.mvp_test.mvp.presenter.base.BasePresenter;
-import com.minminaya.mvp_test.moduleA.presenter.GankPresenterFactory;
+import com.minminaya.mvp_test.function_a.presenter.GankPresenterFactory;
 
 /**
  * Created by Niwa on 2017/5/21.

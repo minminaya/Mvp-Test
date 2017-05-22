@@ -1,10 +1,10 @@
-package com.minminaya.mvp_test.moduleA.presenter;
+package com.minminaya.mvp_test.function_a.presenter;
 
 import android.util.Log;
 
 import com.minminaya.data.network.Network;
 import com.minminaya.data.network.model.GankModel;
-import com.minminaya.mvp_test.moduleA.activity.GankActivity;
+import com.minminaya.mvp_test.function_a.activity.GankActivity;
 import com.minminaya.mvp_test.mvp.presenter.base.BasePresenter;
 
 import io.reactivex.Observer;
