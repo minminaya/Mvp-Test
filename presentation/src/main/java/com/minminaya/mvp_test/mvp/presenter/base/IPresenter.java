@@ -1,4 +1,4 @@
-package com.minminaya.mvp_test.mvp.presenter;
+package com.minminaya.mvp_test.mvp.presenter.base;
 
 /**
  * presenter与Activity接入的几个方法

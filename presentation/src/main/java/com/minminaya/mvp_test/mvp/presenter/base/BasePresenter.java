@@ -1,9 +1,7 @@
-package com.minminaya.mvp_test.mvp.presenter;
+package com.minminaya.mvp_test.mvp.presenter.base;
 
 
 import com.minminaya.mvp_test.mvp.view.MvpView;
-
-import io.reactivex.disposables.CompositeDisposable;
 
 /**
  * Presenter基础类

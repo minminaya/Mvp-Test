@@ -5,7 +5,7 @@ import android.util.Log;
 import com.minminaya.data.network.Network;
 import com.minminaya.data.network.model.GankModel;
 import com.minminaya.mvp_test.moduleA.activity.GankActivity;
-import com.minminaya.mvp_test.mvp.presenter.BasePresenter;
+import com.minminaya.mvp_test.mvp.presenter.base.BasePresenter;
 
 import io.reactivex.Observer;
 import io.reactivex.android.schedulers.AndroidSchedulers;

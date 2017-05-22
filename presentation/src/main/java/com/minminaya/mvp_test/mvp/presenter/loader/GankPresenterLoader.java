@@ -3,7 +3,7 @@ package com.minminaya.mvp_test.mvp.presenter.loader;
 import android.content.Context;
 import android.content.Loader;
 
-import com.minminaya.mvp_test.mvp.presenter.BasePresenter;
+import com.minminaya.mvp_test.mvp.presenter.base.BasePresenter;
 import com.minminaya.mvp_test.moduleA.presenter.GankPresenterFactory;
 
 /**
