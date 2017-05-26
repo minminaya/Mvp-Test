@@ -60,7 +60,7 @@ public class GankActivity extends BaseActivity implements MvpView, LoaderManager
     @Override
     public Loader<GankPresenter> onCreateLoader(int id, Bundle args) {
         Log.e("GankActivity", "onCreateLoader");
-        return new GankPresenterLoader<>(this, new GankPresenterFactory());
+        return new GankPresenterLoader<GankPresenter>(this, new GankPresenterFactory());
     }
 
     @Override

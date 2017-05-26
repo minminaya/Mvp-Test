@@ -17,6 +17,7 @@ import io.reactivex.schedulers.Schedulers;
  */
 
 public class GankPresenter extends BasePresenter<GankActivity> {
+    private int index = 1;
     Observer<GankModel> observer = new Observer<GankModel>() {
         @Override
         public void onSubscribe(Disposable d) {
@@ -26,6 +27,7 @@ public class GankPresenter extends BasePresenter<GankActivity> {
         @Override
         public void onNext(GankModel value) {
             Log.e("gankUrl:", value.getResults().get(1).getUrl());
+            loadTheard();
         }
 
         @Override
@@ -39,6 +41,22 @@ public class GankPresenter extends BasePresenter<GankActivity> {
         }
     };
 
+
+    public void loadTheard() {
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    while(true){
+                        Thread.sleep(1000);
+                        Log.e("打印线程", "" + index++);
+                    }
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        }).start();
+    }
 
     public void loadData() {
         Network.getGankApi()
